@@ -1,0 +1,115 @@
+html {
+   margin: 0; padding: 0; border: 0; font-size: 100%;
+}
+
+body {
+font-family: 'Noto Sans JP', sans-serif;
+background-color: #EEEEEE;
+/* background-image: url(../images/sun_set.jpg); */
+}
+
+footer, header {
+ text-align: center;
+ background-color: #E6CDAE;
+ color:#0D0D0D;
+ margin: 0; border: 0; font-size: 100%;
+ padding: 5px;
+}
+
+header {
+    background-image: url(../images/donkey_header2.jpg);
+}
+
+
+/* nav */
+
+ul {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+  margin: 20px 10px;
+  background-color: #E6CDAE;
+  color: #495F75;
+  border: solid #D28140 0.5px;
+
+}
+
+.li-form {
+  width:100px;
+}
+
+
+li a {
+  text-decoration: none;
+  color: #495F75;
+}
+
+.li-form:hover  {
+	background-color:#D28140;
+  color: white;
+}
+
+li a:hover {
+  color: white;
+}
+
+/* main */
+
+#content-centered {
+  width: 900px;
+  margin: auto;
+  color: #495F75;
+
+}
+
+.subtitle {
+}
+
+.chapter2 {
+  background-color: #C0C0C0;
+  background-image: url(../images/donkey.jpg);
+  padding: 30px;
+  border: solid #0D0D0D 2px;
+  margin: 20px 0px;
+  text-align: right;
+}
+.chapter2 div p {
+  padding: 0px 0px 0px 400px;
+}
+
+.chapter {
+  padding: 30px;
+  background-color: #DCD7D5;
+  border: solid 2px #D28140;
+  margin: 20px 0px;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  width: 200px;
+
+}
+
+.images-line {
+  text-align: center;
+}
+
+.images-line img {
+  display: inline;
+  padding: 20px;
+  width: 200px;
+}
+
+.link-info {
+  text-align: center;
+}
